@@ -48,9 +48,16 @@ print('python'[-5:-1])
 
 print('python'[:3]) 
 print('python'[:])
-'''
+
 str='Monty Python'
 print(len(str))
 
 print (str[0:5],str[6:],str[6:12])
 print (str[-12:-7],str[-6:],str[-6:0])
+
+print('python'[1:5:3])
+print('python'[::-1])
+'''
+print("ab"+"\b"+"c")
+print('\n')
+print("hello\vworld")
