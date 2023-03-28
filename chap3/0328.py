@@ -48,7 +48,6 @@ print('python'[-5:-1])
 
 print('python'[:3]) 
 print('python'[:])
-
 str='Monty Python'
 print(len(str))
 
@@ -57,7 +56,22 @@ print (str[-12:-7],str[-6:],str[-6:0])
 
 print('python'[1:5:3])
 print('python'[::-1])
-'''
+
 print("ab"+"\b"+"c")
 print('\n')
 print("hello\vworld")
+
+str_var="하하하하"
+print(str_var.replace("하","호"))
+
+str_var2="안녕하세요. 파이썬. 파이썬 수업입니다."
+str_var3=str_var2.replace("파이썬", "자바")
+str_var4=str_var3.replace("파이썬","자바", 3)
+print(str_var2,'\n', str_var3, str_var4)
+'''
+num_str=input('실수를 입력 받음')
+num_str.replace('.','')
+sum=int(num_str[0])+int(num_str[1])+int(num_str[2])+int(num_str[3])+int(num_str[4])+int(num_str[6])
+
+print("sum: ",sum)
+
